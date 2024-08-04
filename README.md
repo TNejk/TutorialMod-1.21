@@ -1,3 +1,3 @@
 # TutorialMod-1.21
-Mine first MC mod
+My first MC mod
 By TNejk
