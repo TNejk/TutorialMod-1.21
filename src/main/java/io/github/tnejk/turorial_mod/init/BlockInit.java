@@ -48,7 +48,6 @@ public class BlockInit {
 
     public static final FlowerBlock ROSE = registerWithItem("rose",
             new FlowerBlock(
-//                    StatusEffects.LEVITATION, 10.0F,
                     createSusStewEffect(
                             new SuspiciousStewEffectsComponent.StewEffect(StatusEffects.BLINDNESS, 400),
                             new SuspiciousStewEffectsComponent.StewEffect(StatusEffects.LEVITATION, 400)

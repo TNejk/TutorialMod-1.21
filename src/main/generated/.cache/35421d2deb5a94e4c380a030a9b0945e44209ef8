@@ -1,4 +1,4 @@
-// 1.21	2024-08-04T13:32:37.0628328	Tutorial Mod/World Generator
+// 1.21	2024-08-04T23:19:37.273427	Tutorial Mod/World Generator
 34c60bfcb8a9a706fd819a0ffc35389182985113 data\tutorial_mod\worldgen\placed_feature\rose_patch_key.json
 eea1a8246beafeed9b6d94fbdd60945601027481 data\tutorial_mod\worldgen\placed_feature\rose_key.json
 ff5f3b6b8ab1098704e155cffd853cd3225ccccb data\tutorial_mod\worldgen\configured_feature\rose_patch_key.json
@@ -7,5 +7,5 @@ b0dac6acc7aeabe2f193a8ae04417ef3b52d3780 data\tutorial_mod\worldgen\configured_f
 cea347e5b638fb5756d7183fd5c189077df04ba8 data\tutorial_mod\worldgen\configured_feature\rose_key.json
 0c0a59edb63a418cb2c2dc915986a2dbe866a53d data\tutorial_mod\worldgen\placed_feature\mod_nether_ore_key.json
 00bc49bda6628c92740b547057c8401d0f00cccb data\tutorial_mod\worldgen\placed_feature\mod_overworld_ore_key.json
-c81445830fdfa759c42ba5264fc84b4c2c764018 data\tutorial_mod\worldgen\configured_feature\mod_end_ore_key.json
 2605288aebe9c4f2f6a377be3748a139ea6e745c data\tutorial_mod\worldgen\configured_feature\mod_nether_ore_key.json
+c81445830fdfa759c42ba5264fc84b4c2c764018 data\tutorial_mod\worldgen\configured_feature\mod_end_ore_key.json

@@ -30,6 +30,9 @@ public class TutorialModBlockTagProvider extends FabricTagProvider.BlockTagProvi
                 .add(BlockInit.RUBY_ORE_BLOCK_NETHER)
                 .add(BlockInit.RUBY_ORE_BLOCK_END);
 
+        getOrCreateTagBuilder(TagList.Blocks.MOD_TAG)
+                .add(BlockInit.RUBY_BLOCK);
+
         getOrCreateTagBuilder(TagList.Blocks.INCORRECT_FOR_RUBY_TOOL);
 
         getOrCreateTagBuilder(BlockTags.SMALL_FLOWERS)

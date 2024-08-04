@@ -1,4 +1,4 @@
-// 1.21	2024-08-04T13:32:37.0608371	Tutorial Mod/Model Definitions
+// 1.21	2024-08-04T23:19:37.2679273	Tutorial Mod/Model Definitions
 d2b7b58d46a13a66b76a6fd1b7bafcdeea157ed3 assets\tutorial_mod\models\item\ruby_ore_block_nether.json
 7d33ebe076d837f974606110c01dc7c95d0c1f34 assets\tutorial_mod\models\item\ruby_ore_block_deepslate.json
 c66d0f61bec272ca6e7cb8e433789be0df13028e assets\tutorial_mod\models\item\ruby_axe.json
@@ -13,8 +13,8 @@ e0953f09a7b562b99c0d40abf0eede74c4bd30d9 assets\tutorial_mod\blockstates\ruby_bl
 a2221dd8697bb5ad81f6281491a943af8f01574e assets\tutorial_mod\models\item\ruby_leggings.json
 b34cacdc6f362781095bf54d603167f32d48e33d assets\tutorial_mod\models\block\ruby_ore_block_stone.json
 44d7eaa1de734889cb2107760934e353dff010d3 assets\tutorial_mod\models\item\banana.json
-ab79f24feab7b10b1cf2075cda696028b97863b7 assets\tutorial_mod\models\item\ruby_helmet.json
 ea6cc43baad51eb5726ca704594ac33ea878edfd assets\tutorial_mod\models\block\rose.json
+ab79f24feab7b10b1cf2075cda696028b97863b7 assets\tutorial_mod\models\item\ruby_helmet.json
 f5a970f9c97010b02cb87cf16e143f992423846d assets\tutorial_mod\models\block\ruby_ore_block_end.json
 9d5b7cd546446b6a1cdf7008d2f5b1aacdaf57da assets\tutorial_mod\models\item\ruby_chunk_nether.json
 49b3c3441374c4932c07a72e914d66c2e666d6a3 assets\tutorial_mod\blockstates\ruby_ore_block_stone.json
@@ -27,8 +27,8 @@ b15ad2a1b753b74ef0587a43674f5332184f9fdc assets\tutorial_mod\models\item\ruby_ch
 d0fc9aad5c312dd252e6610abc3d36a50684f3d9 assets\tutorial_mod\models\block\ruby_block.json
 9a0c34fb5a9e3ecd62f7a3a1ce22a69ae81a51ff assets\tutorial_mod\models\item\ruby_pickaxe.json
 474111a670ee50b93011b6f3bc2bed16bafabc4d assets\tutorial_mod\models\item\ruby_ore_block_end.json
-37f6fb69b55df5be16b01439c2e508d992636875 assets\tutorial_mod\models\item\ruby_boots.json
 b183e765cab03de1cf506e6a3ccaed6d7543ef5d assets\tutorial_mod\models\block\ruby_ore_block_deepslate.json
+37f6fb69b55df5be16b01439c2e508d992636875 assets\tutorial_mod\models\item\ruby_boots.json
 05cb6ff9beaf90332b3c5e6d0fe5f08674d4319f assets\tutorial_mod\blockstates\ruby_ore_block_deepslate.json
 373f6c0cd2d9c3a108047560bbe7164b6bc5058a assets\tutorial_mod\blockstates\ruby_ore_block_nether.json
 669b636ee509b3a015371420b70579d537558252 assets\tutorial_mod\models\item\ruby_block.json

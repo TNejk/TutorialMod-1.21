@@ -1,2 +1,11 @@
-// 1.21	2024-08-04T13:32:37.0562227	Tutorial Mod/Tags for minecraft:item
+// 1.21	2024-08-04T23:19:37.2614356	Tutorial Mod/Tags for minecraft:item
+d14df62ba6f7cca87ab620a294e9d0657301e4ae data\minecraft\tags\item\pickaxes.json
+a0bead9edcbae1492025a16298392ab069b07a85 data\minecraft\tags\item\head_armor.json
+735edf0d56c65d3cbe5d85128b3d0efed4606f33 data\minecraft\tags\item\hoes.json
+6e59f71844c04868701128b2ce51131b91ee6992 data\minecraft\tags\item\chest_armor.json
+6be20f254e47c7cbe62279d7d7070c343e1e73c0 data\minecraft\tags\item\leg_armor.json
+20d6868c69e02b8befb3ec8c84d7405c961ace39 data\minecraft\tags\item\swords.json
+4c2dad8ea7bdea88556ffe9783434c1ded7c61e2 data\minecraft\tags\item\axes.json
+bcf76990c1e15d5c69217712ccea5b52d4629be8 data\minecraft\tags\item\shovels.json
 f4b79b0870dc79e1adacf9115dd55a4c3f7188d1 data\minecraft\tags\item\small_flowers.json
+702b96fe1ff0d439fbc3d0baa82351bc9d8db163 data\minecraft\tags\item\foot_armor.json
