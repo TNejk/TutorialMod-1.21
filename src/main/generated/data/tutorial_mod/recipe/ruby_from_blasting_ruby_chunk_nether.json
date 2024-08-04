@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "group": "example",
+  "ingredient": {
+    "item": "tutorial_mod:ruby_chunk_nether"
+  },
+  "result": {
+    "id": "tutorial_mod:ruby"
+  }
+}

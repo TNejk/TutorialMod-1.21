@@ -1,0 +1,9 @@
+{
+  "values": [
+    "tutorial_mod:ruby_block",
+    "tutorial_mod:ruby_ore_block_stone",
+    "tutorial_mod:ruby_ore_block_deepslate",
+    "tutorial_mod:ruby_ore_block_nether",
+    "tutorial_mod:ruby_ore_block_end"
+  ]
+}

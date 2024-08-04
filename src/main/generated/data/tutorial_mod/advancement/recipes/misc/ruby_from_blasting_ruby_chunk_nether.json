@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ruby_chunk_nether": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorial_mod:ruby_chunk_nether"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ruby_from_blasting_ruby_chunk_nether"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ruby_chunk_nether"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ruby_from_blasting_ruby_chunk_nether"
+    ]
+  }
+}

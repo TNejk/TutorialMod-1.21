@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ruby_chunk_stone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorial_mod:ruby_chunk_stone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ruby_from_blasting_ruby_chunk_stone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ruby_chunk_stone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ruby_from_blasting_ruby_chunk_stone"
+    ]
+  }
+}

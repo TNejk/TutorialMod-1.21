@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "item": "tutorial_mod:ruby"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "pattern": [
+    "E",
+    "E",
+    "S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorial_mod:ruby_sword"
+  }
+}

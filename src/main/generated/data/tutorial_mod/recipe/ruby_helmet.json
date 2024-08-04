@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "E": {
+      "item": "tutorial_mod:ruby"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "GEG",
+    "G G",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorial_mod:ruby_helmet"
+  }
+}

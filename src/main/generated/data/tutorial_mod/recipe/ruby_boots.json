@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "tutorial_mod:ruby"
+    }
+  },
+  "pattern": [
+    "EDE",
+    "E E",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "tutorial_mod:ruby_boots"
+  }
+}

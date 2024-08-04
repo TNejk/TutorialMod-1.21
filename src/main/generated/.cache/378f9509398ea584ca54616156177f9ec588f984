@@ -1,0 +1,7 @@
+// 1.21	2024-08-04T13:32:37.0577295	Tutorial Mod/Block Loot Tables
+70d0487bd137347e0ab5ea9a545457df93d9802f data\tutorial_mod\loot_table\blocks\ruby_ore_block_deepslate.json
+46ddd512ded673128b3db2f1b636db8b117e6ea5 data\tutorial_mod\loot_table\blocks\ruby_ore_block_stone.json
+5fae86434ffa8ead798b147864d30f4e0ae9ab14 data\tutorial_mod\loot_table\blocks\rose.json
+c835514209e8b98bc691ddd176b207501865f26b data\tutorial_mod\loot_table\blocks\ruby_ore_block_end.json
+becfe204c2242fb35f8dce62e3f60390003451ac data\tutorial_mod\loot_table\blocks\rose_pot.json
+462530552f8369dcb1ba39bff6a089f146610c11 data\tutorial_mod\loot_table\blocks\ruby_ore_block_nether.json

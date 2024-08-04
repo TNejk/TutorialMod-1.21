@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "feature": "tutorial_mod:rose_key",
+    "tries": 64,
+    "xz_spread": 10,
+    "y_spread": 4
+  }
+}
