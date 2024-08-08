@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorial_mod:block/osage_orange_slab"
+    },
+    "type=double": {
+      "model": "tutorial_mod:block/osage_orange_planks"
+    },
+    "type=top": {
+      "model": "tutorial_mod:block/osage_orange_slab_top"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:chains"
+    },
+    "L": {
+      "item": "tutorial_mod:stripped_osage_orange_log"
+    }
+  },
+  "pattern": [
+    "C C",
+    "LLL",
+    "LLL"
+  ],
+  "result": {
+    "count": 6,
+    "id": "tutorial_mod:osage_orange_hanging_sign"
+  }
+}

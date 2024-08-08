@@ -1,18 +1,26 @@
 package io.github.tnejk.turorial_mod.init;
 
+import com.terraformersmc.terraform.boat.api.TerraformBoatType;
+import com.terraformersmc.terraform.boat.api.client.TerraformBoatClientHelper;
+import com.terraformersmc.terraform.boat.api.item.TerraformBoatItemHelper;
+import com.terraformersmc.terraform.boat.impl.TerraformBoatInitializer;
 import io.github.tnejk.turorial_mod.TutorialMod;
+import io.github.tnejk.turorial_mod.data.custom.item.MetalDetectorItem;
 import io.github.tnejk.turorial_mod.list.FoodList;
 import io.github.tnejk.turorial_mod.list.enums.TutorialModToolMaterials;
+import net.fabricmc.fabric.api.item.v1.FabricItem;
+import net.minecraft.block.Block;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
 
 public class ItemInit {
 
     public static final Item BANANA = register("banana",
             new Item(new Item.Settings().food(FoodList.BANANA).maxCount(16)));
     public static final Item RUBY = register("ruby",
-            new Item(new Item.Settings()));
+            new MetalDetectorItem(new Item.Settings()));
     public static final Item RUBY_CHUNK_STONE = register("ruby_chunk_stone",
             new Item(new Item.Settings()));
     public static final Item RUBY_CHUNK_DEEPSLATE = register("ruby_chunk_deepslate",
@@ -65,6 +73,18 @@ public class ItemInit {
             new ArmorItem(ArmorMaterialInit.RUBY, ArmorItem.Type.BOOTS, new Item.Settings()
                     .maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(45))));
 
+    public static final SignItem OSAGE_ORANGE_SIGN = register("osage_orange_sign",
+            new SignItem(new Item.Settings().maxCount(16), BlockInit.OSAGE_ORANGE_SIGN, BlockInit.OSAGE_ORANGE_WALL_SIGN));
+
+    public static final HangingSignItem OSAGE_ORANGE_HANGING_SIGN = register("osage_orange_hanging_sign",
+            new HangingSignItem(BlockInit.OSAGE_ORANGE_HANGING_SIGN, BlockInit.OSAGE_ORANGE_WALL_HANGING_SIGN, new Item.Settings().maxCount(16)));
+
+    public static final Item OSAGE_ORANGE_STICK = register("osage_orange_stick",
+            new Item(new Item.Settings()));
+
+    private static RegistryKey<TerraformBoatType> BoatInit_OSAGE_ORANGE_BOAT_KEY;
+    public static final Item OSAGE_ORANGE_BOAT = TerraformBoatItemHelper.registerBoatItem(BoatInit.OSAGE_ORANGE_BOAT_ID, BoatInit_OSAGE_ORANGE_BOAT_KEY, false);
+    public static final Item OSAGE_ORANGE_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(BoatInit.OSAGE_ORANGE_CHEST_BOAT_ID, BoatInit_OSAGE_ORANGE_BOAT_KEY, true);
 
     public static <T extends Item> T register(String name, T item) {
         return Registry.register(Registries.ITEM, TutorialMod.id(name), item);

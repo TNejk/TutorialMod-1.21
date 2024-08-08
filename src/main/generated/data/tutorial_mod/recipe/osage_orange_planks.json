@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "tutorial_mod:osage_orange_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "tutorial_mod:osage_orange_planks"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_c:chests": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:chests"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_osage_orange_planks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "tutorial_mod:osage_orange_planks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "tutorial_mod:osage_orange_chest_boat"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_osage_orange_planks",
+      "has_c:chests"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tutorial_mod:osage_orange_chest_boat"
+    ]
+  }
+}

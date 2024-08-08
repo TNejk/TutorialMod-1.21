@@ -4,6 +4,7 @@ import io.github.tnejk.turorial_mod.TutorialMod;
 import io.github.tnejk.turorial_mod.init.BlockInit;
 import io.github.tnejk.turorial_mod.init.ItemGroupInit;
 import io.github.tnejk.turorial_mod.init.ItemInit;
+import io.github.tnejk.turorial_mod.list.TagList;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -53,6 +54,29 @@ public class TutorialModEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ItemInit.RUBY_BOOTS, "Ruby Boots");
         translationBuilder.add(BlockInit.ROSE, "Rose");
         translationBuilder.add(BlockInit.ROSE_POT, "Rose Pot");
+        translationBuilder.add(BlockInit.OSAGE_ORANGE_LOG, "Osage Orange Log");
+        translationBuilder.add(BlockInit.STRIPPED_OSAGE_ORANGE_LOG, "Stripped Osage Orange Log");
+        translationBuilder.add(BlockInit.OSAGE_ORANGE_WOOD, "Osage Orange Wood");
+        translationBuilder.add(BlockInit.STRIPPED_OSAGE_ORANGE_WOOD, "Stripped Osage Orange Wood");
+        translationBuilder.add(BlockInit.OSAGE_ORANGE_LEAVES, "Osage Orange Leaves");
+        translationBuilder.add(BlockInit.OSAGE_ORANGE_SAPLING, "Osage Orange Sapling");
+        translationBuilder.add(BlockInit.OSAGE_ORANGE_PLANKS, "Osage Orange Planks");
+        translationBuilder.add(BlockInit.OSAGE_ORANGE_SLAB, "Osage Orange Slab");
+        translationBuilder.add(BlockInit.OSAGE_ORANGE_STAIRS, "Osage Orange Stairs");
+        translationBuilder.add(BlockInit.OSAGE_ORANGE_DOOR, "Osage Orange Door");
+        translationBuilder.add(BlockInit.OSAGE_ORANGE_TRAPDOOR, "Osage Orange Trapdoor");
+        translationBuilder.add(BlockInit.OSAGE_ORANGE_FENCE, "Osage Orange Fence");
+        translationBuilder.add(BlockInit.OSAGE_ORANGE_FENCE_GATE, "Osage Orange Fence Gate");
+        translationBuilder.add(BlockInit.OSAGE_ORANGE_BUTTON, "Osage Orange Button");
+        translationBuilder.add(BlockInit.OSAGE_ORANGE_PRESSURE_PLATE,  "Osage Orange Pressure Plate");
+        translationBuilder.add(ItemInit.OSAGE_ORANGE_SIGN, "Osage Orange Sign");
+        translationBuilder.add(ItemInit.OSAGE_ORANGE_HANGING_SIGN, "Osage Orange Hanging Sign");
+        translationBuilder.add(ItemInit.OSAGE_ORANGE_BOAT, "Osage Orange Boat");
+        translationBuilder.add(ItemInit.OSAGE_ORANGE_CHEST_BOAT, "Osage Orange Chest Boat");
+        translationBuilder.add(ItemInit.OSAGE_ORANGE_STICK, "Osage Orange Stick");
+        translationBuilder.add(TagList.Items.OSAGE_ORANGE_LOGS, "Osage Orange Logs");
+
+
         addText(translationBuilder, ItemGroupInit.MOD_GROUP_TITLE, "Tutorial Mod");
 
     }

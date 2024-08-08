@@ -1,7 +1,22 @@
-// 1.21	2024-08-04T23:19:37.2704346	Tutorial Mod/Tags for minecraft:block
+// 1.21	2024-08-08T20:04:34.4780795	Tutorial Mod/Tags for minecraft:block
+f6a4e5f903e1eef7ea3d50facf787376585f4107 data\minecraft\tags\block\wooden_buttons.json
+04b22f52a30b4c6e6cc0ed5768ad0c4b186e01ff data\minecraft\tags\block\wooden_fences.json
 f4b79b0870dc79e1adacf9115dd55a4c3f7188d1 data\minecraft\tags\block\small_flowers.json
-1369d11879e1d9ff7dd8ccbae736c8fd425b4d20 data\minecraft\tags\block\flower_pots.json
-a6cc8e79f402a35f0b512c124ebcddeb5db9863d data\minecraft\tags\block\mineable\pickaxe.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data\tutorial_mod\tags\block\incorrect_for_ruby_tool.json
+b062c22256992c664f52edca149cbc6fea83d3e5 data\minecraft\tags\block\logs_that_burn.json
+e4e8f22adcddf325fbf122974d858ac5084afd6f data\minecraft\tags\block\saplings.json
+2181e7f235ae35406964f8a210d03d262eeecfa5 data\minecraft\tags\block\wooden_slabs.json
+da7dd53029684f8a5819ec25af1c43c93b387edf data\minecraft\tags\block\wall_signs.json
+78813e1be2c8b33eba4609f7be1fcd0228f74998 data\minecraft\tags\block\wooden_doors.json
 d8e739781e5d3c9b1d9a259dedb3442e43bc6ef1 data\tutorial_mod\tags\block\mod_tag.json
 a6cc8e79f402a35f0b512c124ebcddeb5db9863d data\minecraft\tags\block\needs_diamond_tool.json
+351eddf72408a70c715149837ebfb952f3eaaf4e data\tutorial_mod\tags\block\osage_orange_logs.json
+e92110711bbe50fbc3d05e1fbca05f3048375a58 data\minecraft\tags\block\wall_hanging_signs.json
+016948bedc4631a1a078d254f8d3f64b524b7174 data\minecraft\tags\block\wooden_trapdoors.json
+a11e6ea6cb72a04570806cf2e1117c86bfa5ef38 data\minecraft\tags\block\leaves.json
+1369d11879e1d9ff7dd8ccbae736c8fd425b4d20 data\minecraft\tags\block\flower_pots.json
+2672e13762c73f9ba5ae34097051c8fe43699599 data\minecraft\tags\block\wooden_stairs.json
+782407fd0fed49dcdfa1d02d795342b6667e188c data\minecraft\tags\block\wooden_pressure_plates.json
+a6cc8e79f402a35f0b512c124ebcddeb5db9863d data\minecraft\tags\block\mineable\pickaxe.json
+596cc63a7623bfaefceceba4b26e0f42ca123adc data\minecraft\tags\block\ceiling_hanging_signs.json
+da7dd53029684f8a5819ec25af1c43c93b387edf data\minecraft\tags\block\standing_signs.json
