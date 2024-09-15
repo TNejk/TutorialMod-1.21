@@ -1,5 +1,6 @@
 package io.github.tnejk.turorial_mod;
 
+import io.github.tnejk.turorial_mod.data.generator.TutorialModEnchantmentGenerator;
 import io.github.tnejk.turorial_mod.data.generator.TutorialModWorldGenerator;
 import io.github.tnejk.turorial_mod.data.provider.*;
 import io.github.tnejk.turorial_mod.init.worldgen.ConfiguredFeatureInit;
@@ -22,6 +23,7 @@ public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(TutorialModItemTagProvider::new);
 		pack.addProvider(TutorialModWorldGenerator::new);
 		pack.addProvider(TutorialModRecipeProvider::new);
+		pack.addProvider(TutorialModEnchantmentGenerator::new);
 
 
 	}

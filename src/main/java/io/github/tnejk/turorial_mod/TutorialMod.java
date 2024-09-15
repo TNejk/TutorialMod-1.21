@@ -5,7 +5,6 @@ import io.github.tnejk.turorial_mod.init.worldgen.BiomeModificationInit;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.Block;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.Items;
 import net.minecraft.util.Identifier;
@@ -28,6 +27,7 @@ public class TutorialMod implements ModInitializer {
 		ArmorMaterialInit.init();
 		BiomeModificationInit.init();
 		BoatInit.init();
+		EnchantmentInit.init();
 
 	}
 

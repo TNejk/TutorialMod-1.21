@@ -5,6 +5,7 @@ import com.terraformersmc.terraform.sign.api.block.TerraformSignBlock;
 import com.terraformersmc.terraform.sign.api.block.TerraformWallHangingSignBlock;
 import com.terraformersmc.terraform.sign.api.block.TerraformWallSignBlock;
 import io.github.tnejk.turorial_mod.TutorialMod;
+import io.github.tnejk.turorial_mod.init.worldgen.ConfiguredFeatureInit;
 import io.github.tnejk.turorial_mod.list.BlockSetTypeList;
 import io.github.tnejk.turorial_mod.list.WoodTypeList;
 import net.minecraft.block.*;
@@ -18,9 +19,11 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import org.spongepowered.asm.mixin.injection.selectors.ITargetSelector;
 
 import java.awt.*;
 import java.util.List;
+import java.util.Optional;
 
 import static net.minecraft.block.Blocks.createLeavesBlock;
 
@@ -103,7 +106,16 @@ public class BlockInit {
 
     public static final SaplingBlock OSAGE_ORANGE_SAPLING = registerWithItem("osage_orange_sapling",
             new SaplingBlock(
-                    null,
+                    new SaplingGenerator(
+                            TutorialMod.id("osage_orange_sapling").toString(),
+                            0.1F,
+                            Optional.of(ConfiguredFeatureInit.OSAGE_ORANGE_TREE_KEY),
+                            Optional.of(ConfiguredFeatureInit.OSAGE_ORANGE_TREE_KEY),
+                            Optional.of(ConfiguredFeatureInit.OSAGE_ORANGE_TREE_KEY),
+                            Optional.empty(),
+                            Optional.empty(),
+                            Optional.empty()
+                    ),
                     AbstractBlock.Settings.create()
                             .mapColor(MapColor.TERRACOTTA_GREEN)
                             .ticksRandomly()

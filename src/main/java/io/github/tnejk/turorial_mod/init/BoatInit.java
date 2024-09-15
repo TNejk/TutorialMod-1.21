@@ -15,16 +15,17 @@ public class BoatInit {
     public static final RegistryKey<TerraformBoatType> OSAGE_ORANGE_BOAT_KEY = TerraformBoatTypeRegistry.createKey(OSAGE_ORANGE_BOAT_ID);
 
 
-    public static final TerraformBoatType OSAGE_ORANGE_TYPE = register(OSAGE_ORANGE_BOAT_KEY, new TerraformBoatType.Builder()
-            .item(ItemInit.OSAGE_ORANGE_BOAT)
-            .chestItem(ItemInit.OSAGE_ORANGE_CHEST_BOAT)
-            .planks(BlockInit.OSAGE_ORANGE_PLANKS.asItem())
-            .build()
-    );
+    public static TerraformBoatType OSAGE_ORANGE_TYPE;
 
     public static TerraformBoatType register(RegistryKey<TerraformBoatType> key, TerraformBoatType type) {
         return Registry.register(TerraformBoatTypeRegistry.INSTANCE, key, type);
     }
 
-    public static void init() {}
+    public static void init() {
+        OSAGE_ORANGE_TYPE = register(OSAGE_ORANGE_BOAT_KEY, new TerraformBoatType.Builder()
+                .item(ItemInit.OSAGE_ORANGE_BOAT)
+                .chestItem(ItemInit.OSAGE_ORANGE_CHEST_BOAT)
+                .planks(BlockInit.OSAGE_ORANGE_PLANKS.asItem())
+                .build());
+    }
 }

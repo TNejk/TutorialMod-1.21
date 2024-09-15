@@ -82,9 +82,26 @@ public class ItemInit {
     public static final Item OSAGE_ORANGE_STICK = register("osage_orange_stick",
             new Item(new Item.Settings()));
 
-    private static RegistryKey<TerraformBoatType> BoatInit_OSAGE_ORANGE_BOAT_KEY;
-    public static final Item OSAGE_ORANGE_BOAT = TerraformBoatItemHelper.registerBoatItem(BoatInit.OSAGE_ORANGE_BOAT_ID, BoatInit_OSAGE_ORANGE_BOAT_KEY, false);
-    public static final Item OSAGE_ORANGE_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(BoatInit.OSAGE_ORANGE_CHEST_BOAT_ID, BoatInit_OSAGE_ORANGE_BOAT_KEY, true);
+    public static final Item OSAGE_ORANGE_BOAT = TerraformBoatItemHelper.registerBoatItem(BoatInit.OSAGE_ORANGE_BOAT_ID, BoatInit.OSAGE_ORANGE_BOAT_KEY, false);
+    public static final Item OSAGE_ORANGE_CHEST_BOAT = TerraformBoatItemHelper.registerBoatItem(BoatInit.OSAGE_ORANGE_CHEST_BOAT_ID, BoatInit.OSAGE_ORANGE_BOAT_KEY, true);
+
+    public static final Item INSTANT_NOODLES_PACKED = register("instant_noodles_packed",
+            new Item(new Item.Settings().maxCount(1).food(FoodList.INSTANT_NOODLES_PACKED))); //text
+    public static final Item INSTANT_NOODLES_UNPACKED = register("instant_noodles_unpacked",
+            new Item(new Item.Settings().maxCount(1).food(FoodList.INSTANT_NOODLES_UNPACKED))); //text
+    public static final Item INSTANT_NOODLES_SPICER = register("instant_noodles_spicer",
+            new Item(new Item.Settings().maxCount(64).food(FoodList.INSTANT_NOODLES_SPICER))); //text
+    public static final Item INSTANT_NOODLES_SPICER_BLOCK = register("instant_noodles_spicer_block",
+            new Item(new Item.Settings().maxCount(64).food(FoodList.INSTANT_NOODLES_SPICER_BLOCK)));
+    public static final Item WET_INSTANT_NOODLES = register("wet_instant_noodles",
+            new Item(new Item.Settings().maxCount(1).food(FoodList.WET_INSTANT_NOODLES)));
+    public static final Item NORMAL_INSTANT_NOODLES = register("normal_instant_noodles",
+            new Item(new Item.Settings().maxCount(1).food(FoodList.NORMAL_INSTANT_NOODLES)));
+    public static final Item FINE_INSTANT_NOODLES = register("fine_instant_noodles",
+            new Item(new Item.Settings().maxCount(1).food(FoodList.FINE_INSTANT_NOODLES)));
+    public static final Item ULTRA_FINE_INSTANT_NOODLES = register("ultra_fine_instant_noodles",
+            new Item(new Item.Settings().maxCount(1).food(FoodList.ULTRA_FINE_INSTANT_NOODLES)));
+
 
     public static <T extends Item> T register(String name, T item) {
         return Registry.register(Registries.ITEM, TutorialMod.id(name), item);

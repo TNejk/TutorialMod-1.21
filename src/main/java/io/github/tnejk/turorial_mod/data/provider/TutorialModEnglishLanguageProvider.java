@@ -2,6 +2,7 @@ package io.github.tnejk.turorial_mod.data.provider;
 
 import io.github.tnejk.turorial_mod.TutorialMod;
 import io.github.tnejk.turorial_mod.init.BlockInit;
+import io.github.tnejk.turorial_mod.init.EnchantmentInit;
 import io.github.tnejk.turorial_mod.init.ItemGroupInit;
 import io.github.tnejk.turorial_mod.init.ItemInit;
 import io.github.tnejk.turorial_mod.list.TagList;
@@ -75,7 +76,7 @@ public class TutorialModEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ItemInit.OSAGE_ORANGE_CHEST_BOAT, "Osage Orange Chest Boat");
         translationBuilder.add(ItemInit.OSAGE_ORANGE_STICK, "Osage Orange Stick");
         translationBuilder.add(TagList.Items.OSAGE_ORANGE_LOGS, "Osage Orange Logs");
-
+        translationBuilder.addEnchantment(EnchantmentInit.THUNDERING_KEY, "Thundering");
 
         addText(translationBuilder, ItemGroupInit.MOD_GROUP_TITLE, "Tutorial Mod");
 

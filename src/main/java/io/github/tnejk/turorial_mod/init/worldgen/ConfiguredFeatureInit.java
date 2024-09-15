@@ -11,10 +11,18 @@ import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.structure.rule.BlockMatchRuleTest;
 import net.minecraft.structure.rule.RuleTest;
 import net.minecraft.structure.rule.TagMatchRuleTest;
+import net.minecraft.util.math.intprovider.ConstantIntProvider;
+import net.minecraft.util.math.intprovider.IntProvider;
 import net.minecraft.util.math.noise.DoublePerlinNoiseSampler;
 import net.minecraft.world.gen.feature.*;
+import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
+import net.minecraft.world.gen.foliage.AcaciaFoliagePlacer;
+import net.minecraft.world.gen.foliage.FoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 import net.minecraft.world.gen.stateprovider.NoiseBlockStateProvider;
+import net.minecraft.world.gen.stateprovider.SimpleBlockStateProvider;
+import net.minecraft.world.gen.trunk.DarkOakTrunkPlacer;
+import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 
 import java.util.List;
 
@@ -25,6 +33,8 @@ public class ConfiguredFeatureInit {
 
     public static final RegistryKey<ConfiguredFeature<?,?>> ROSE_KEY = registerKey("rose_key");
     public static final RegistryKey<ConfiguredFeature<?,?>> ROSE_PATCH_KEY = registerKey("rose_patch_key");
+
+    public static final RegistryKey<ConfiguredFeature<?, ?>> OSAGE_ORANGE_TREE_KEY = registerKey("osage_orange_tree_key");
 
     public static void bootstrap(Registerable<ConfiguredFeature<? , ?>> context){
         RuleTest modStoneOreReplacables = new TagMatchRuleTest(BlockTags.STONE_ORE_REPLACEABLES);
@@ -62,6 +72,16 @@ public class ConfiguredFeatureInit {
         register(context, ROSE_PATCH_KEY, Feature.FLOWER, new RandomPatchFeatureConfig(
                 64,10, 4,registryLookup.getOrThrow(PlacedFeatureInit.ROSE_KEY)
         ));
+
+        register(context, OSAGE_ORANGE_TREE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                SimpleBlockStateProvider.of(BlockInit.OSAGE_ORANGE_LOG),
+                new DarkOakTrunkPlacer(8, 6, 16), // base, first random, second random
+                SimpleBlockStateProvider.of(BlockInit.OSAGE_ORANGE_LEAVES),
+                new AcaciaFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0)),
+                new TwoLayersFeatureSize(3, 0, 3))
+                .build()
+        );
+
     }
 
     private static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
